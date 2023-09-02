@@ -24,7 +24,7 @@ if ( empty( $ds8_next_post ) && empty( $ds8_prev_post ) ) {
 <?php do_action( 'ds8_entry_before_prev_next_posts' ); ?>
 <div data-test="container" class="container rowCompartir">
         
-        <a class="btn-default btn Ripple-parent btn-sm btn-color-primary" href="http://glratings.con/leyesnormativas">Leyes y Normativas</a>
+  <a class="btn-default btn Ripple-parent btn-sm btn-color-primary" href="<?php echo site_url(); ?>/leyesnormativas">Leyes y Normativas</a>
 	<?php
 
 	// Previous post link.
