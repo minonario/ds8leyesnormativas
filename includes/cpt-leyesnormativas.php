@@ -65,7 +65,7 @@ class DS8_CPT_LEYES {
                                     'show_ui'             => true,
                                     'show_in_menu'        => true,
                                     'show_in_nav_menus'   => true,
-                                    'capability_type'     => 'leynormativa',
+                                    'capability_type'     => 'post',
                                     'map_meta_cap'        => true,
                                     'publicly_queryable'  => true,
                                     'exclude_from_search' => false,
