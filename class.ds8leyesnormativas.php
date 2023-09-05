@@ -324,8 +324,9 @@ class DS8Leyesnormativas {
         public static function ds8_leyesnormativas_javascript(){
           
             wp_enqueue_style('leyesnormativas-css', plugin_dir_url( __FILE__ ) . 'assets/css/leyesnormativas.css', array(), DS8LEYESNORMATIVAS_VERSION);
-            wp_register_script('leyesnormativas.js', plugin_dir_url( __FILE__ ) . 'assets/js/leyesnormativas.js', array('jquery'), DS8LEYESNORMATIVAS_VERSION, true );
-            wp_enqueue_script('leyesnormativas.js' );
+            
+            wp_register_script( 'leyesnormativas.js', plugin_dir_url( __FILE__ ) . 'assets/js/leyesnormativas.js', array('jquery'), DS8LEYESNORMATIVAS_VERSION, true );
+            wp_enqueue_script( 'leyesnormativas.js' );
 
         }
 
