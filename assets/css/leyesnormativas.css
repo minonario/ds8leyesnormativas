@@ -69,6 +69,10 @@ h2.entry-title {
     margin-top: 15px;
 }
 
+.row.leyes{
+  margin-left: 0;
+  margin-right: 0;
+}
 
 
 /*[class *="wd-spacing-"] > [class *="col"] {
