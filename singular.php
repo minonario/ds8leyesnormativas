@@ -63,7 +63,7 @@
           );
         ?>
     </div>
-    <div data-test="row" class="row">
+    <div data-test="row" class="row leyes">
     <!--<div class="si-container">-->
     <?php
     if ( have_posts() ) :
